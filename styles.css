@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #d4af37; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile span {
+    color: #d4af37; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #d4af37; 
+}
+
+.content p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #fff;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    color: #d4af37; 
+}
+
+.acessar-perfil {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d4af37; 
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #b8860b; 
+}
